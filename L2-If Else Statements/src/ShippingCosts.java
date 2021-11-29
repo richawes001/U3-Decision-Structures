@@ -1,3 +1,5 @@
+import javax.swing.*;
+
 public class ShippingCosts {
 
     /*
@@ -22,5 +24,11 @@ public class ShippingCosts {
     As always, your program should include a method.
      */
 
+    public static void main(String[] args) {
+
+        int miles = Integer.parseInt(JOptionPane.showInputDialog("How man miles are you shipping?"));
+        double weight = Double.parseDouble(JOptionPane.showInputDialog("What is the weight of what you're shipping?"));
+
+    }
 
 }
